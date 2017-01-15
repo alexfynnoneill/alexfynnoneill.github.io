@@ -42,6 +42,9 @@ function askQuestions () /* roundbrackets means 'run function'! */ {
 /* JS when page has loaded */
 $(function () {
 
+	/* when user clicks on image, run askQuestions */
+	$('img').on('click', askQuestions)
+
 	/* when user clicks h3 element */
 	$('h3').on ('click', function () {
 
