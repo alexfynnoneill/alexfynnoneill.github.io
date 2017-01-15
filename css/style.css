@@ -1,0 +1,81 @@
+/* this is a css comment, add these throughout to remind yourself what you have been doing*/
+
+html,
+body {
+	height: 100%; /* this tells whatever is in html to fill the entire screen*/
+
+}
+
+body {
+	background-color: rgba(196,196,255,0.9);
+	background-image: url(../images/bg8.jpg);
+	background-repeat: no-repeat;
+	background-position: 50% 50%;
+	background-size: cover; /* stretches to fit the width of the screen */
+	font-family: Helvetica, Arial, sans-serif;
+}
+
+.main {
+	background-color: rgba(255,255,255,0.5);	/* 0.75 is translucency */
+	max-width: 600px;
+	margin: 0 auto; /* this centres the element */
+	padding: 40px;
+	border-radius: 30px;
+	box-shadow: 5px 5px 5px rgba(192,192,192,0.5);
+}
+
+h1 {
+	font-family: 'Roboto', sans-serif;
+	text-align: center;
+	text-shadow: 0px 3px 2px gray;
+	margin:0; /* removes spacing in header text */
+}
+h2 {
+	font-family: 'Roboto', sans-serif;
+	text-align:center;
+	margin-top:0;
+	font-weight: normal;
+	letter-spacing: 5px;
+	text-transform: uppercase;
+}
+
+
+h3 {
+	font-family: 'Roboto', sans-serif;
+	margin-bottom: 0;
+}
+
+h3:hover {
+	cursor: pointer;
+	text-decoration: underline;
+	
+}
+
+h3 + * {display: none;}
+	
+
+img {
+	display: block; /* you have to do this to give it margins */
+	margin: 0 auto; /* this centres the element */
+	border: 2px dotted black;
+	border-radius: 10px;
+	width: 200px;
+}
+
+p,
+ul,
+ol {line-height: 1.6; /* this is the height of the character, not pixels */
+	list-style: none;
+	padding-left: 0;} /* means they arent indented */
+
+a {
+	color: grey;
+	font-weight: bold;
+	text-decoration: none;
+	
+}
+
+a:hover {
+	text-decoration: underline; 
+}
+ 
